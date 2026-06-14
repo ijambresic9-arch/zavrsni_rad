@@ -1,0 +1,39 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Veliki podaci - NE uploadati!
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.pkl
+data/predictions/*.csv
+
+# Trenirani modeli - PREVELIKI za GitHub
+models/saved/*.keras
+models/saved/*.h5
+models/checkpoints/
+
+# Logovi
+logs/
+*.log
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TensorBoard
+runs/
+events.out.tfevents.*
+
+# Prazne datoteke
+2.11
+py
